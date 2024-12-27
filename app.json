@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"kIv0QiD6M7S5LD4DTdqV31yYXWAkVFhBLGyushoogmw="},"public":{"type":"Buffer","data":"r7bmzThloTgaZUd5fv4D3XnPL29XzRIhFeR9O43ZAV0="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"IBasp7RoZd3lxad2J4cQUh+/eZTKopJJECH4Siqmamk="},"public":{"type":"Buffer","data":"tw6IL1FKrpffpY1OTMxQ23j91lLp5gfoNO2/0lPrNAs="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"aAXsFOv37S2CWp8usWGAvBt1EN5EzGKYNbutMP+qXWE="},"public":{"type":"Buffer","data":"reUw+CrWI8/BKY0OC/LCFMbJ2tocm9X2jNbmxHPnTVY="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"oBSCvJLpB674u8nNcRxA6sH+QG7AqmlS6O5M2cFT1UE="},"public":{"type":"Buffer","data":"/9X3aFjeImFRuHnnZQAeAt+A50j+ogoftDxI33KDyWs="}},"signature":{"type":"Buffer","data":"8iqV16VAy0g1XivD93mThX1M/7+/8FZf476sXm776xZFFzF6Y/dGcNpnic6RaDzhuvkdq2x0Ty1x4/jdCtzkgQ=="},"keyId":1},"registrationId":159,"advSecretKey":"EXMg+Iy3E9tscfmBrnExPkagcbjnX0RXOtHf8hNAhes=","processedHistoryMessages":[{"key":{"remoteJid":"94759095744@s.whatsapp.net","fromMe":true,"id":"3AAE6FDBE29B70BE070E"},"messageTimestamp":1735325340}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"eo7a0ZP2TJCFsOVhohl_IA","phoneId":"bcf67812-af3a-4ffc-a108-33f583fdcfe1","identityId":{"type":"Buffer","data":"YqdPAOX4JbAGAsX5481lk4wqPrc="},"registered":true,"backupToken":{"type":"Buffer","data":"k5/QjEptUOsYoDsEj8DogB/iHoE="},"registration":{},"pairingCode":"YY648KDQ","me":{"id":"94759095744:73@s.whatsapp.net","name":"Lakshman Senanayaka"},"account":{"details":"CIKh64ICEIntu7sGGAEgACgA","accountSignatureKey":"IzyPuDgfBWSPkMk27qTxl/wmxkDxkmpMpo8NaPnQlkg=","accountSignature":"Kgs1zTrVhWWQPQI6A020VMUeZxu10afME919hRsYcRqkFdYs+xerySNs6vf4cEDQhvqQxaubD3U8rwat9DLxBA==","deviceSignature":"inI3m2g790VZCJ80j6eip/GoyJ/aYoauHhjbZyh1kXiXxBINaq/poiVIGamfjwSzUWrnYb7OwNLme8+c449wgQ=="},"signalIdentities":[{"identifier":{"name":"94759095744:73@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSM8j7g4HwVkj5DJNu6k8Zf8JsZA8ZJqTKaPDWj50JZI"}}],"platform":"iphone","lastAccountSyncTimestamp":1735325334,"myAppStateKeyId":"AAAAAOYu"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -41,7 +41,7 @@
     },
     "OWNER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "94759095744"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
